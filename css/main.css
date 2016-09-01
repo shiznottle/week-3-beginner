@@ -126,15 +126,98 @@ div > p > .alt {
 
 footer {
 	background-color: #7ACCC5;
-	height: 100px;
+	height: 75px;
+	bottom: 0;
+	position: fixed;
+	width: 100%;
 }
 
+@media(max-width: 1200px) {
+	p {
+		font-size: 30px;
+		padding-top: 40px;
 
+	}
 
+	img {
+		padding: 40px;
+	}
 
+	.quote {
+		margin-right: 0;
+	}
 
+	button {
+		width: 200px;
+	}
 
+	#right {
+		padding: 20px;
+	}
 
+	#left {
+		padding: 20px;
+	}
+
+	.quote {
+		width: 170px;
+	}
+
+	.view {
+		width: 170px;
+	}
+	
+	
+
+@media(max-width: 900px) {
+
+	img {
+		width: 350px;
+	}
+}
+
+@media(max-width: 800px) {
+	form {
+		display: none;
+	}
+
+	nav {
+		text-align: center;
+	}
+
+	#right {
+		float: none;
+		text-align: center;
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#left {
+		width: 100%;
+		text-align: center;
+	}
+
+	.quote, .view {
+
+	}
+
+	#cta {
+		height: auto;
+	}
+
+	ul {
+		display: none;
+	}
+}
+	
+@media(max-width: 650px) {
+	img {
+		padding: 0px;
+	}
+
+	#left {
+		padding: 10px 0;
+	}
 
 
 
